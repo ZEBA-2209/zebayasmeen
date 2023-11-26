@@ -1,0 +1,368 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    
+   
+}
+#header{
+    position: absolute;
+    top: 20px;
+}
+
+#header1{
+  /* border: 2px solid; */
+  position: absolute;
+  top: 20px;
+  padding-left: 90px;
+  word-spacing: 20px;
+}
+#head2 {
+    position:absolute;
+    left: 1000px;
+    top:2px;
+    list-style: none;
+    margin-top: 20px;
+   
+}
+
+
+.abc{
+    position:absolute;
+    top:2px;
+    left: 70px;
+    
+}
+button{
+    background-color:black;
+    color: aliceblue;
+    position: absolute;
+    left: 150px;
+    bottom:10px;
+    height: 2.2em;
+    
+
+    
+}
+
+button+button{
+    background-color: red;
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+    border-radius: 10px;
+    font-size: medium;
+    height: 2.5em;
+}
+section{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 100%;
+}
+
+section h1{
+    position: absolute;
+    top: 130px;
+    left: 650px;
+    
+}
+
+section span h4{
+    position: absolute;
+    top: 180px;
+    left: 500px;
+    background-color: red;
+    border-radius: 30px;
+    height: 1.5em;
+    width: 5em;
+    align-items: center;
+    padding-left: 20px;
+    font-size: medium;
+    
+}
+section span+span{
+    position: absolute;
+    top: 180px;
+    left: 600px;
+}
+section span+span+span{
+    position: absolute;
+    top: 180px;
+    left: 700px;
+}
+section span+span+span+span{
+    position: absolute;
+    top: 180px;
+    left: 800px;
+}
+section span+span+span+span+span{
+    position: absolute;
+    top: 180px;
+    left: 920px;
+}
+ footer{
+    border: 2px solid;
+    height: 270px;
+    width: 100%;
+    background-image:url("./bg.jpg");
+    background-position: center center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    background-color:rgba(127, 255, 212, 0.753);
+    }
+    footer span h1{
+         background-color: #454647;
+         height: 120px;
+         width: 500px;
+         margin-left: 420px;
+         margin-top: 80px;
+         text-align: center;
+         color: azure;
+         padding-top: 20px;
+    }
+    footer span p{
+        
+        /* height: 120px;
+        width: 500px; */
+       position: absolute;
+       left: 480px;
+       bottom: 80px;
+       font-weight: bold;
+       font-size:22px;
+    
+        
+        color:crimson;
+        
+   }
+    #demo1{
+        /* border: 2px solid; */
+        height: 250px;
+        width: 210px;
+        position:absolute;
+      top: 320px;
+      left: 300px;
+      
+    }
+    #demo2{
+        /* border: 2px solid; */
+        height: 250px;
+        width: 210px;
+        position:absolute;
+      top: 300px;
+      left: 525px;
+      
+    }
+    #demo3{
+        /* border: 2px solid; */
+        height: 250px;
+        width: 210px;
+        position:absolute;
+      top: 300px;
+      left: 745px;
+      
+    }
+    .fa-solid{
+        font-size: 50px;
+        /* padding-top: 20px; */
+    }
+     .fa-bolt{
+        padding-top: 30px;
+     }
+    .fa-regular{
+        font-size: 50px;
+        padding-top: 30px;
+    }
+    
+  #demo1 p{
+    font-size: 10px;
+  }
+  #demo2 p{
+    font-size: 10px;
+  }
+  #demo3 p{
+    font-size: 10px;
+  }
+
+  .yz{
+    position: absolute;
+    top: 900px;
+    border: 2px solid;
+    height: 900px;
+    width: 100%;
+    /* text-align: center;
+    justify-content: center; */
+  }
+   footer2 h3{
+    text-align: center;
+    justify-content: center;
+   }
+
+   #demo4{
+    
+    position: absolute;
+    left: 345px;
+    top:90px;
+    
+   }
+
+   #demo5{
+    position: absolute;
+    left: 650px;
+    top:90px;
+   }
+
+   #demo6{
+    position: absolute;
+    left: 960px;
+    top:90px;
+   }
+
+   img{
+    height: 200px;
+    width: 200px;
+   }
+   #demo7{
+    position: absolute;
+    left: 345px;
+    top:460px;
+    
+   }
+
+   #demo8{
+    position: absolute;
+    left: 650px;
+    top:460px;
+   }
+
+   #demo9{
+    position: absolute;
+    left: 960px;
+    top:460px;
+   }
+
+
+
+   #demo4 button{
+    
+    position: absolute;
+    left: 8px;
+    top:300px;
+ }
+
+ #demo5 button{
+    
+    position: absolute;
+    left: 18px;
+    top:300px;
+ }
+ #demo6 button{
+    
+    position: absolute;
+    left: 28px;
+    top:300px;
+ }
+ #demo7 button{
+    
+    position: absolute;
+    left: 8px;
+    top:400px;
+ }
+ #demo8 button{
+    
+    position: absolute;
+    left: 18px;
+    top:400px;
+ }
+ #demo9 button{
+    
+    position: absolute;
+    left: 28px;
+    top:400px;
+ }
+ .eb h3{
+    position: absolute;
+    top: 1805px;
+    left: 500px;
+    /* border: 2px solid; */
+    height: 500px;
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+ }
+
+#demo11{
+    position: absolute;
+    left: 360px;
+    top:1860px;
+}
+#demo12{
+    position: absolute;
+    left: 760px;
+    top:1860px; 
+}
+
+ #demo11 img{
+    height: 200px;
+    width: 300px;
+ }
+ #demo12 img{
+    height: 200px;
+    width: 300px;
+ }
+
+ #demo11 button{
+
+    position: absolute;
+    left: 28px;
+    top:300px;
+
+ }
+ #demo12 button{
+    position: absolute;
+    left: 28px;
+    top:300px;
+ }
+ #demo11 button+button{
+ 
+    position: absolute;
+    left: 180px;
+    top:300px;
+    background-color: crimson;
+ }
+ #demo12 button+button{
+    position: absolute;
+    left: 180px;
+    top:300px;
+    background-color: crimson;
+    
+ }
+  footer4 div{
+    position: absolute;
+    top: 2300px;
+    background-color: black;
+    color: red;
+    height: 500px;
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 90px;
+    font-size: large;
+  }
+  #a{
+     padding-left: 70px;
+     padding-top: 30px;
+     
+     
+  }
+ 
